@@ -1,0 +1,6 @@
+.env
+temp_audio.wav
+transcript.txt
+summary.txt
+__pycache__
+.venv
