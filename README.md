@@ -109,12 +109,9 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 This project is licensed under the MIT License - see the LICENSE file for
 details.
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 - [Deepgram](https://deepgram.com) for their speech-to-text API
 - [Groq](https://groq.com) for their fast LLM inference API
 - [Streamlit](https://streamlit.io) for the web application framework
 
----
-
-Created with ❤️ by [Your Name]
