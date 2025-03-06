@@ -1,5 +1,6 @@
-deepgram
-groq
-streamlit
+streamlit>=1.30.0
+deepgram-sdk>=3.0.0
+groq>=0.4.0
+asyncio>=3.4.3
 
 
