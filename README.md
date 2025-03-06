@@ -100,14 +100,6 @@ _[Add screenshots of your application here]_
    create bullet point summaries
 4. **Display**: Results are displayed in a tabbed interface for easy viewing
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for
-details.
 
 ##  Acknowledgements
 
