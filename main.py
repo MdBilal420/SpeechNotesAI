@@ -9,14 +9,20 @@ import asyncio
 import os
 import groq
 import re
+from dotenv import load_dotenv
 
 st.title("SpeechNotes AI")
 st.write("Upload your audio file below")
 
+# Get Deepgram API Key from .env file
+load_dotenv()
+DEEPGRAM_KEY = os.getenv("DEEPGRAM_API_KEY")
+GROQ_KEY = os.getenv("GROQ_API_KEY")
+
 # Get Deepgram API Key from environment variable or user input
-DEEPGRAM_API_KEY = st.sidebar.text_input("Enter your Deepgram API Key", type="password",value="f82b963c2c49744b16b32298e89b9f8eca974095")
+DEEPGRAM_API_KEY = st.sidebar.text_input("Enter your Deepgram API Key", type="password",value=DEEPGRAM_KEY)
 # Get Groq API Key from user input
-GROQ_API_KEY = st.sidebar.text_input("Enter your Groq API Key", type="password",value="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")
+GROQ_API_KEY = st.sidebar.text_input("Enter your Groq API Key", type="password",value=GROQ_KEY)
 
 # Initialize Groq client
 if GROQ_API_KEY:
