@@ -81,9 +81,6 @@ You'll enter these keys in the application's sidebar when running the app.
 
 7. Download the transcription or summary as a text file
 
-## 📸 Screenshots
-
-_[Add screenshots of your application here]_
 
 ## 🛠️ Technologies Used
 
